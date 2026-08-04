@@ -6,7 +6,7 @@ credits: true
 about-featured-image: letter_19421102
 position: center
 heading: About the Collection
-sub-heading: Letters to Tule Lake: Inouye Family Correspondence during Japanese American Incarceration
+sub-heading: "Letters to Tule Lake: Inouye Family Correspondence during Japanese American Incarceration"
 padding: 6em
 ---
 

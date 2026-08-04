@@ -1,20 +1,14 @@
 {% comment %} 
-
     Collection Description card.
-    Pulls description from _config.yml. Provides btn link to About page if present in the config-nav.
-
     E.G. --> {% include index/description.html %}
-    
-    Options: 
-
-    - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
-    - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
-
 {%- endcomment -%}
 <div class="card mb-3">
     <div class="card-body">
         <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Description</{{ include.heading_level | default: 'h2' | strip }}>
-        <p class="card-text">{{ site.description }}</p>
+        <p class="card-text">On February 19, 1942 United States president Franklin Roosevelt signed Executive Order 9066 instructing all persons of Japanese ancestry to report for incarceration.</p>
+        <p class="card-text">Quaker led National Japanese American Student Relocation Council (NJASRC), chaired by Swarthmore College's then President John Nason, brought almost 5,000 college aged students from camps to college campuses including Swarthmore College.</p>
+        <p class="card-text">George (Class of 1944) came to Swarthmore in September of 1942; his brother William (also Class of 1944) joined him in January of 1943; and their younger sister Miyoko (Class of 1947) arrived in September of 1943.</p>
+        <p class="card-text">Letters to Tule Lake is the beginning of a digital humanities project led by Associate Professor Lei X Ouyang, in collaboration with the Inouye family, and with tremendous support from the Swarthmore College Libraries and Lib Lab Student Fellows. We hope to continue to expand the material on this site about the Inouye family and Swarthmore College's history with the NJASRC over time.</p>
         {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}{% if about > 0 %}
         <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
     </div>

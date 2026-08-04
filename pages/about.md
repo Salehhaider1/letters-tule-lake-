@@ -2,38 +2,36 @@
 title: About
 layout: about
 permalink: /about.html
-# include CollectionBuilder info at bottom
 credits: true
-# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
-# set background-position for featured image, "center", "top", "bottom"
-position: bottom
-# major heading to display over featured image
+about-featured-image: letter_19421102
+position: center
 heading: About the Collection
-# paragraph text below heading in featured image
-sub-heading: 
-# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+sub-heading: Letters to Tule Lake: Inouye Family Correspondence during Japanese American Incarceration
 padding: 6em
-# Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+"You're still there and I'm here at college. It seems so unreal-sounds so impossible, and yet, there's no denying that what has happened and is now history," George Inouye wrote to his parents, incarcerated at Camp Tulelake from his dorm room at Swarthmore College dated December 6, 1942. In the letter, George recounts the previous year that forever transformed his family's life as he reflects on the first anniversary of the bombing of Pearl Harbor and the increased anti-Japanese sentiment that led to extreme actions by the United States government.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+On February 19, 1942 United States president Franklin Roosevelt signed Executive Order 9066 instructing all persons of Japanese ancestry to report for incarceration. Over the next few years some 150,000 individuals–nearly two thirds of whom were United States citizens–were incarcerated as a result of anti-Japanese sentiment during World War II. George Inouye and his family were relocated to Tule Lake Relocation Center in Newell, California in 1942; within one year of their arrival all three children were invited to attend Swarthmore College through the assistance of the National Japanese American Student Relocation Council (NJASRC).
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+This site was built in hopes that it can serve as a platform to make connections across the Inouye family history, Swarthmore history, local Philadelphia history, and the history of Japanese and Japanese American experiences during WWII in the United States. The Inouye family recently donated to the Swarthmore College libraries a collection of original letters written from George, William, and Miyoko from Swarthmore College and sent to their parents incarcerated at Tule Lake. These precious communications between children and their parents provide a glimpse into their lived experience as they navigated life inside and outside of incarceration camps.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+This site is an ongoing project, and we seek to continue to provide connections across archival materials at Swarthmore and beyond, notable events such as the 2018 Wataridori installation, and other related initiatives documenting the Japanese American incarceration experience. Future additions underway include oral histories with the Inouye family and local Philadelphia artists and activists familiar with the wartime and post-wartime efforts to support Japanese and Japanese Americans.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Project Background
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+At some point in the 1990s my mother, a Chinese immigrant to the United States, came downstairs and handed me a VHS tape. She said in Chinese something to the effect of, "You need to watch this and see what the Americans did." The VHS tape was the 1990 film "Come See the Paradise" starring Tamilyn Tomita and Dennis Quaid; a fictionalized story of Japanese American incarceration. The film served as my primary source of education on the topic since it was not covered in any of my formal education from kindergarten through college in Minnesota. Fast forward to my work as a college professor. Whenever I teach about Japanese American incarceration, I ask for a show of hands to see how many of my undergraduate students have previously studied this chapter of US history as part of their K-12 education. When I began teaching in the early 2000s first in Minnesota and then later in upstate New York, the only hands that would go up were students from California or Hawai'i. The vast majority of US based students, like me, had not studied incarceration as part of our K-12 curriculum. Thankfully, over the years this has changed and in recent years, when I ask my classes in Pennsylvania, all my students (US and International) say, though brief, they have previously studied some aspect.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+As an educator, I aim to connect our daily lives with what we are studying. While preparing for class in spring 2018, I came across the website "50 objects," a history project of 50 curated objects that tell the stories of American Japanese incarceration. Still new to Swarthmore at that point, I was curious about the Quaker roots to the project. I stopped when I came across a photo of students who were released to Swarthmore College, PA, in 1943 (courtesy of American Friends Service Committee Archives, via 50objects.org).
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+It was here that I learned about the Quaker led National Japanese American Student Relocation Council, chaired by Swarthmore's then president John Nason, that brought almost 5,000 college aged students from camps to college campuses including Swarthmore College. As Japanese and Japanese Americans were sent to the camps, leaders across the United States at institutions of higher education and faith-based organizations joined together in hopes of providing some alternative for college-aged students.
+
+In 2022, President Biden declared February 19 as the National Day of Remembrance of Japanese American incarceration during World War II. A day that was first informally observed in the state of Washington in the 1970s and since then has been officially observed in the states of Washington, Oregon, and California as well as regional and local observances, particularly close to sites of former incarceration camps. I have often thought of the photo of students at Swarthmore and have been compelled to find a way to organize observance on our campus and in February 2024 I was able to program the first Day of Remembrance that I am aware of on our campus since the federal observation.
+
+In preparing for the 2024 Day of Remembrance programming, I learned more about some of the students who were brought to Swarthmore College through the work of the Japanese American Student Relocation Council. The Inouye family had three siblings who were invited to Swarthmore College through the work of the council: George (Class of 1944) came to Swarthmore in September of 1942; his brother William (also Class of 1944) joined him in January of 1943; and their younger sister Miyoko (Class of 1947) arrived in September of 1943. The family recently donated correspondence between George and his parents to Swarthmore's special collections and I am just beginning to learn more about who they were and their time on campus. From what I've read so far, the letters talk about everyday life at Swarthmore, good grades and bad, finishing homework in the middle of another class, and LOTS of studying…but also about attending events and general twenty something year old musings. But the letters also show George's concern for his parents who are still incarcerated, and every now and again some reflections on the politics of the time. According to a college bulletin article, in 1944 the Wartime Relocation Authority invited George's parents to Philadelphia to run a hostel to help Japanese American families resettle as they were able to leave camps. The Inouye family took in more than 1,000 Japanese Americans during their time running the hostel on Chestnut Street.
+
+The children and grandchildren of George, William, and Miyoko Inouye have continued to hold Swarthmore College close to their family story. More than one of the children, and even some grandchildren, also came to Swarthmore for their undergraduate education. I have just begun to get to the know the family and am in the process of conducting oral histories with them. They report that their parents and grandparents said very little about their time during WWII and afterwards; yet the materials that they saved such as the letters and other items, are a window into this turning point in the family's history. Recently the family shared with me that they have a second set of letters from Miyoko to her parents while they were still at Camp Tulelake. The letters are handwritten in Japanese and none of the remaining family members speak Japanese. They are eager to learn more from these letters just as they learned so much from the English language letters from William and George.
+
+It is my hope that increased visibility, education, awareness, and conversation about the injustices during both war and peace time in the United States will contribute to raise awareness about this underrepresented and underacknowledged era of US history. Much of the lived experience remains untold due to the trauma of the period. As a result, descendants of those incarcerated are now trying to learn more about their own family's history through materials such as the Inouye family letters. I'm grateful to all involved who helped make this site possible, so that we may broaden intergenerational knowledge and deepen awareness of Japanese American incarceration as we educate the next generation of citizens, organizers, and leaders.
+
+*—Lei X Ouyang, Associate Professor, Swarthmore College*

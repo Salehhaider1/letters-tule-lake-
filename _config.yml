@@ -18,9 +18,8 @@ source-code: https://github.com/Salehhaider1/letters-tule-lake-
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Letters from Tule Lake
-# tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Wartime letters from George to Saburo, 1942-1944
+title: Letters to Tule Lake
+tagline: "Inouye Family Correspondence during Japanese American Incarceration"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "A digital collection of wartime letters written by George to Saburo between 1942 and 1944, documenting student life at Swarthmore College."
